@@ -1,5 +1,5 @@
 class Song
-   attr_accessor :name, :artist, :genre
+attr_accessor :name, :artist, :genre
 @@count = 0 #sets the counter to begin at zero
 @@artists = [] #creates an empty array to keep track of artists
 @@genres = [] #creates an empty array to keep track of genres
@@ -32,7 +32,6 @@ def self.genre_count
        end
        genre_count
      end
-end
 
 def self.artists #method returns an array of ONLY UNIQUE artists, no duplicates.
     @@artists.uniq
