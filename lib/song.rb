@@ -50,8 +50,4 @@ def self.genre_count
      end
 
 
-
-
-
-
 end
